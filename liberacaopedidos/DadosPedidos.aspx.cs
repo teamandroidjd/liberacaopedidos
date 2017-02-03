@@ -22,12 +22,13 @@ namespace liberacaopedidos
 
         private void CarregarDadosPedido(int NumPedido)
         {
-            
-            var listaPedidos = new PedBlqService().CarregarPedidos(NumPedido);
+
+            var listaPedidos = new PedBlqService().CarregaDadosPedidos(NumPedido);
             if (listaPedidos != null)
             {
                 this.lblNumPedido.Text  = listaPedidos.NumPedido;
-                
+                this.lblTotal.Text      = listaPedidos.ValorTotal;                
+
             }
         }
     }
