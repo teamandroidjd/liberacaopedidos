@@ -1,0 +1,30 @@
+﻿.toolbar {
+    margin-bottom: 20px;   
+}
+
+.toolbar-left {
+    float: left;  
+     margin-bottom: 20px;   
+}
+
+.toolbar-right {
+    float: right;
+     margin-bottom: 20px;   
+}
+
+@media (max-width: 1200px) {
+    .toolbar-left {
+    float: none;   
+}
+
+.toolbar-right {
+    float: none;
+}
+
+.filter-dates {
+    display: block;
+
+
+.table-searc {
+    display: block;
+}

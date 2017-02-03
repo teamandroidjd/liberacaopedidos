@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="liberacaopedidos.master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Liberação de Pedidos</title>
+    <!--metas-->
+    <meta charset="utf-8" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--stylesheets-->
+    <link rel="stylesheet" href="content/styles/reset.css" />
+    <link rel="stylesheet" href="content/styles/main.css" />
+    <link rel="stylesheet" href="content/styles/bootstrap.css" />
+    <link rel="stylesheet" href="content/styles/bootstrap-theme.css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'/>
+
+    <!--scripts-->
+    <script src="content/scripts/jquery-1.11.3.min.js"></script>
+    <script src="content/scripts/jquery.mask.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header class="header-main">
+        <input type="button" class="button-image float-left button-main-menu full-height" id="buttonMainMenu" />
+        <input type="button" class="button-image div-header-logo full-height float-right element-fill-image" />                
+    </header>
+    <!--end header-main-->
+    <div class="body-main">
+        <form id="form" runat="server">
+            <asp:ContentPlaceHolder ID="content" runat="server">
+            </asp:ContentPlaceHolder>
+        </form>
+    </div>
+    <!--end body-main-->   
+
+    <!--scripts-->
+    <script src="content/scripts/bootstrap.min.js"></script>
+    <script src="content/scripts/main.js"></script>    
+</body>
+</html>

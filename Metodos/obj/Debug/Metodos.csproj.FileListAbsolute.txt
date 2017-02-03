@@ -1,0 +1,5 @@
+C:\Wsge(2005)\Liberação de Pedidos\CSharp\liberacaopedidos\Metodos\bin\Debug\Metodos.dll
+C:\Wsge(2005)\Liberação de Pedidos\CSharp\liberacaopedidos\Metodos\bin\Debug\Metodos.pdb
+C:\Wsge(2005)\Liberação de Pedidos\CSharp\liberacaopedidos\Metodos\obj\Debug\Metodos.csprojResolveAssemblyReference.cache
+C:\Wsge(2005)\Liberação de Pedidos\CSharp\liberacaopedidos\Metodos\obj\Debug\Metodos.dll
+C:\Wsge(2005)\Liberação de Pedidos\CSharp\liberacaopedidos\Metodos\obj\Debug\Metodos.pdb
