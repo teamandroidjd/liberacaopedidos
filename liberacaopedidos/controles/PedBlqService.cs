@@ -113,8 +113,7 @@ namespace liberacaopedidos.controles
                                    " AND (CODSITPED = 'R')";
 
                     cmd = new SqlCommand(query, session.conexao);
-                    cmd.Parameters.Clear();
-                    //IDataReader reader = executar.ExecuteQuery();
+                    cmd.Parameters.Clear();                    
                     reader = cmd.ExecuteReader();
                     if (reader.HasRows)
                     {
