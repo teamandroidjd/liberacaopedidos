@@ -1,0 +1,68 @@
+﻿.rounded_corners {
+    border: 1px solid #A1DCF2;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+    .rounded_corners td, .rounded_corners th {
+        border: 1px solid #A1DCF2;
+        font-family: Arial;
+        font-size: 10pt;
+        text-align: center;
+    }
+
+    .rounded_corners table table td {
+        border-style: none;
+    }
+
+.col-1 {
+    width: 18.33%;    
+}
+
+.col-2 {
+    width: 15.66%;
+    text-align:end
+}
+
+.col-3 {
+    width: 20%;
+    text-align:center
+}
+
+.col-4 {
+    width: 14.33%;
+    text-align:end
+}
+
+.col-5 {
+    width: 21.66%;
+    text-align:end
+}
+
+.tit-1 {
+    width: 18.33%;    
+    text-align:center;
+}
+
+.tit-2 {
+    width: 15.66%;
+    text-align:center;
+}
+
+.tit-3 {
+    width: 20%;
+    text-align:center
+}
+
+.tit-4 {
+    
+    text-align:center;
+}
+
+.tit-5 {
+    width: 21.66%;
+    text-align:center;
+}

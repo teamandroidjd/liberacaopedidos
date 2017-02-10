@@ -32,3 +32,11 @@ C:\Wsge(2005)\Liberação de Pedidos\CSharp\liberacaopedidos\liberacaopedidos\ob
 C:\Wsge(2005)\Liberação de Pedidos\CSharp\liberacaopedidos\liberacaopedidos\obj\Debug\liberacaopedidos.pdb
 C:\Wsge(2005)\Liberação de Pedidos\CSharp\LiberacaoPedidos\liberacaopedidos\obj\Debug\liberacaopedidos.csprojResolveAssemblyReference.cache
 C:\Wsge(2005)\Liberação de Pedidos\CSharp\LiberacaoPedidos\liberacaopedidos\bin\AjaxControlToolkit.dll
+C:\Wsge(2005)\Liberação de Pedidos\CSharp\liberacaopedidos\liberacaopedidos\bin\Newtonsoft.Json.dll
+C:\Wsge(2005)\Liberação de Pedidos\CSharp\liberacaopedidos\liberacaopedidos\bin\System.Net.Http.Formatting.dll
+C:\Wsge(2005)\Liberação de Pedidos\CSharp\liberacaopedidos\liberacaopedidos\bin\System.Web.Http.dll
+C:\Wsge(2005)\Liberação de Pedidos\CSharp\liberacaopedidos\liberacaopedidos\bin\System.Web.Http.WebHost.dll
+C:\Wsge(2005)\Liberação de Pedidos\CSharp\liberacaopedidos\liberacaopedidos\bin\Newtonsoft.Json.xml
+C:\Wsge(2005)\Liberação de Pedidos\CSharp\liberacaopedidos\liberacaopedidos\bin\System.Net.Http.Formatting.xml
+C:\Wsge(2005)\Liberação de Pedidos\CSharp\liberacaopedidos\liberacaopedidos\bin\System.Web.Http.xml
+C:\Wsge(2005)\Liberação de Pedidos\CSharp\liberacaopedidos\liberacaopedidos\bin\System.Web.Http.WebHost.xml

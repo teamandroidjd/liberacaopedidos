@@ -14,5 +14,8 @@ namespace liberacaopedidos.Models
         public int CodCLie { get; set; }
         public String NomeVend { get; set; }
         public String Observacao { get; set; }
+
+        public String Bloqueios { get; set; }
+
     }
 }

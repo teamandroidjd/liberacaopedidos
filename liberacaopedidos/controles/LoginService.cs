@@ -9,12 +9,12 @@ namespace liberacaopedidos.Services
 {
     public class LoginService
     {
-        public bool validarUsuario(string username, string password)
+        public int validarUsuario(string username, string password)
         {
             StringBuilder query = new StringBuilder();
             var session = new dbSession();
 
-            query.Append(" SELECT USUARIO, SENHA FROM USUARIOS ");
+            query.Append(" SELECT CODUSUARIO, USUARIO, SENHA FROM USUARIOS ");
             query.Append(" WHERE ATIVO = 'S'");
             query.AppendFormat(" AND USUARIO = '{0}'", username);
             query.AppendFormat(" AND SENHA = '{0}'", password);
@@ -27,9 +27,9 @@ namespace liberacaopedidos.Services
                 if(reader.Read())
                 {
                     if (!string.IsNullOrEmpty(reader["USUARIO"].ToString()))
-                        return true;
+                        return Convert.ToInt32(reader["CODUSUARIO"]);
                 }
-                return false;                
+                return 0;                
             }           
 
         }

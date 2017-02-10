@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="content/styles/main.css" />
     <link rel="stylesheet" href="content/styles/bootstrap.css" />
     <link rel="stylesheet" href="content/styles/bootstrap-theme.css" />
+    <link rel="stylesheet" href="content/styles/Grids.css" type='text/css' />
+
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'/>
 
     <!--scripts-->
@@ -36,7 +38,37 @@
             </asp:ContentPlaceHolder>
         </form>
     </div>
-    <!--end body-main-->   
+    <!--end body-main--> 
+    <aside class="aside-menu">
+        <div class="menu-main-item">
+            <h3 class="text-center">
+                <span id="spanUsuarioMenu"></span>
+                <br />
+                <small class="white" id="smallTituloUsu"></small>
+            </h3> 
+            <hr />           
+        </div>             
+    </aside>
+    <!--end .aside-menu-->  
+    <div id="modalAvisos" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Aviso</h4>
+                </div>
+                <!--end .modal-header-->
+                <div class="modal-body" id="modalAvisosBody"></div>
+                <!--end #modalAvisosBody-->
+                <div class="modal-footer">
+                    <button type="button" class="button button-white" data-dismiss="modal">Cancelar</button>
+                </div>
+                <!--end .modal-footer-->
+            </div>
+            <!--end .modal-content-->
+        </div>
+        <!--end .modal-dialog-->
+    </div>
 
     <!--scripts-->
     <script src="content/scripts/bootstrap.min.js"></script>

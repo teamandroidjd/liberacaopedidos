@@ -43,15 +43,18 @@ namespace liberacaopedidos
                 return;
             } else
             {
-                if (loginService.validarUsuario(txtLogin.Text, txtSenha.Text))
+                int CodUsuario = loginService.validarUsuario(txtLogin.Text, txtSenha.Text);
+                if (CodUsuario > 0)
                 {
-                    Response.Redirect("~/pedidosbloqueados.aspx");
+                    Response.Redirect("~/pedidosbloqueados.aspx?Id=" + CodUsuario);
                 }
                 else
                 {
                     this.ExibirAlerta(Mensagem.TipoMensagem.Alerta, "Usuário não existe ou inativo");
                     return;
                 }
+
+                
             }
         }
     }
